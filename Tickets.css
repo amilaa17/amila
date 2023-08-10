@@ -1,0 +1,184 @@
+body {
+  
+  
+  margin: 0;
+  padding: 0;
+ /* background-image: url(../images/kai-richter-ttFAlwGNTSw-unsplash.jpg);*/
+  background-size: cover;
+  background-position: top center;
+  position: relative;
+  z-index: 1;
+  font-family:'Poppins', sans-serif;
+
+}
+h1 {
+  
+  margin-left: 600px;
+  color: whitesmoke;
+}
+.header {
+  display: flex;
+  align-items: center;
+  background-color: #055c33;
+  padding: 20px 20px;
+  font-family:'Poppins', sans-serif;
+}
+.homeLink {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-family:'Poppins', sans-serif;
+
+}  .smallNav {
+  background: #eaeaea;
+  list-style: none;
+  padding: 0px;
+  font-size: 20px;
+  font-family:'Poppins', sans-serif;
+  display: flex;
+  font-weight: bold;
+}
+
+.smallNav li {
+  display: inline;
+  color: #ffffff;
+}
+
+.smallNav li i {
+  margin-right: 5px;
+ 
+}
+
+
+.smallNav a {
+  color: black;
+  text-decoration: none;
+}
+
+.smallNav a:hover {
+  text-decoration: underline;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+
+}
+
+.guestt .cn {
+
+  margin-left: 50px ;
+  border-radius: 20px;
+
+}
+.guestt .cn .hh{
+  
+  width: 400px;
+  
+}
+
+.guestt .cn  .bu{
+
+  padding-top: 12px;
+  margin-left: 50px;
+}
+.guestt .cn .bu button{
+  width: 34px;
+  height: 34px;
+  border-radius: 18px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+  background-color: #454444;
+  cursor: pointer;
+  
+}
+
+
+
+#ticketCategories,
+#durationSection {
+  margin-top: 20px;
+}
+
+#summaryTable {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  background-color: #fff;
+}
+
+
+
+
+#Tickettype {
+  font-weight: bold;
+}
+
+#continueButton {
+  display: block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #055c33;
+
+  border: none;
+  cursor: pointer;
+}
+
+#continueButton:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+} .ticket-category {
+  margin: 5px;
+  flex: 1 1 150px; 
+}
+
+.ticket-category label {
+  display: block;
+  margin-bottom: 5px;
+  color: #000000;
+}  
+.ticket-category input {
+  font-size: 18px;
+  padding: 8px;
+
+  border: none;
+  border-radius: 4px;
+}
+  
+.ticket-category {
+  margin: 10px;
+  text-align: left;
+}
+.summary-table {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.summary-table h2 {
+  margin-bottom: 10px;
+  color: #28a745;
+}
+
+.summary-table table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+}
+
+.summary-table th,
+.summary-table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+.summary-table th {
+  background-color: #28a745;
+  color: white;
+}
+
+.summary-table td {
+  font-size: 18px;
+}
