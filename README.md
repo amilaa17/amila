@@ -1,2 +1,2 @@
 # amila
-new tesr
+new test
