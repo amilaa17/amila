@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment Page</title>
+  <link rel="stylesheet" href="css/Payment.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="manifest" href="images/site.webmanifest">
+</head>
+<body>
+  <div class="header">
+
+    <a href="Home.html" class="homeLink">< Home</a>
+    
+   <h1>Buy Tickets</h1>
+  </div>
+  <div class="smallNav">
+    <ul class="smallNav">
+      <li><a href="Tickets.html" class="smallNavParts">Ticket ></a></li>
+      <li><a href="Deatails.html" class="smallNavParts"> Details ></a></li>
+      <li><a href="Payment.html" class="smallNavParts">Payment ></a></li>
+      <li><a href="Conformation.html" class="smallNavParts">Confirmation</a></li>
+    </ul>
+  </div>
+  <header class="page-header">
+  
+    
+    <div class="container">
+      <div class="form-container">
+          <h2>Payment Details</h2>
+          <form id="payment-form">
+              <label for="card-number">Card Number</label>
+              <input type="text" id="card-number" required>
+              <label for="expiry-date">Expiry Date</label>
+              <input type="text" id="expiry-date" required>
+              <label for="cvc">CVC / CVV</label>
+              <input type="text" id="cvc" required>
+              <label for="name-on-card">Name on Card</label>
+              <input type="text" id="name-on-card" required>
+              
+            </form>
+            
+    <button onclick="myFunction()" id="payButton">Pay</button>
+
+    <script>
+    function myFunction() {
+    alert("THANK YOU FOR PAYMENT!");
+    }
+    </script>
+      </div>
+      <div class="summary">
+        <h2>Summary</h2>
+        <!-- Table to display the summary from local storage -->
+        <div id="summary-table"></div>
+      </div>
+      </div>
+    
+    </div>
+  </main>
+
+  <script src="./Java Script/Payment .js"></script>
+</body>
+</html>
